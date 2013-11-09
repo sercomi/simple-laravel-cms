@@ -1,0 +1,28 @@
+/bootstrap/compiled.php
+vendor
+composer.phar
+composer.lock
+.DS_Store
+Thumbs.db
+
+# Ignora archivos de sistema
+Desktop.ini
+.Spotlight-V100
+.Trashes
+
+# Thumbnail cache files
+._*
+Thumbs.db
+
+# Ignora directorios de compilación
+build
+
+# Ignora archivos temporales y de log
+*.log
+*.tmp
+
+# Ignora bases de datos sqlite
+*.sqlite3
+
+#Ignora vagrant configuration
+.vagrant
