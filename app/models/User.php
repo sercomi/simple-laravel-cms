@@ -12,6 +12,7 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 	 */
 	protected $table = 'users';
 
+	protected $guarded = array('id', 'active', 'hash', 'created_at', 'updated_at', 'deleted_at', );
 	/**
 	 * The attributes excluded from the model's JSON form.
 	 *
@@ -49,4 +50,8 @@ class User extends Eloquent implements UserInterface, RemindableInterface {
 		return $this->email;
 	}
 
+	public function posts()
+    {
+        return $this->hasMany('Post');
+    }
 }

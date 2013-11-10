@@ -5,12 +5,13 @@
 Simple CMS developed on Laravel Framework and Bootstrap as styling framework.
 
 [Laravel](http://laravel.com)
+
 [Bootstrap](http://getbootstrap.com)
 
 ### Installation
 
 - Clone repository
 - `cd simple-laravel-cms`
-- `composer install
+- `composer install`
 - Setup webserver
-
+- `./artisan migrate --seed`

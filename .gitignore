@@ -4,6 +4,7 @@ composer.phar
 composer.lock
 .DS_Store
 Thumbs.db
+storage
 
 # Ignora archivos de sistema
 Desktop.ini
